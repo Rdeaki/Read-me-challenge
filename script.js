@@ -75,3 +75,17 @@ inquirer.Prompt(
     git,
     email,
 }))
+//table
+const generateFile = (data) => {
+    return `
+# ${data.title}
+
+
+${data.badge}
+
+
+## Description
+
+${data.description}
+
+## Table of Contents
